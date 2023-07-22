@@ -1,0 +1,111 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+.image{
+  position: absolute;
+  right: 0;
+}
+.banner{
+  background:linear-gradient(rgba(99, 103, 117, 0.22), rgba(121, 125, 147, 0.187)), url(images/IMG-4766.jpg); 
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-size: cover;
+  overflow: hidden;
+  position: relative;
+  
+}
+.container {
+  position: absolute;
+  bottom: 0;
+  display: flex;
+  gap: 30px;
+ 
+ 
+}
+.one{
+  background-color: rgba(200, 200, 135, 0.378);
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+}
+.two{
+  
+  background-color: rgba(200, 200, 135, 0.463); ;
+  padding: 20px;
+  border-top-right-radius: 20px;
+  border-top-left-radius: 20px;
+  
+
+}
+p{
+  padding-top: 20px;
+  line-height: 30px;
+}
+
+
+
+.social{
+  margin: 20px;
+  margin-bottom: 50px;
+  
+  
+}
+.social ul{
+  list-style: none;
+   
+}
+.social a i{
+  width: 45px; 
+  height: 45px; 
+  background-color: bisque;
+  border: 2px solid olive;
+  color: olive;
+  text-align: center;
+  line-height: 45px;
+  border-radius: 50px;
+  margin-right: 10px;
+  font-weight: 600;
+   
+}
+.social a i:hover{
+  color: olive;
+  background-color: white;
+  box-shadow: 0 0 10px white;
+}
+.logo{
+  height: 120px;
+}
+#textbox{
+  width: 90%;
+  color: aliceblue;
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  text-align: center;
+}
+h1{
+  font-size: 50px;
+}
+h2{
+  font-size: 30px;
+}
+.banner .waves{
+  position: absolute;
+  bottom:  0;
+  width: 100%;
+  color: transparent;
+  
+}
+.content{
+  position: relative;
+  top: 30%;
+  left: 30%;
+}
+.contact{
+  background-color:olivedrab;
+
+}
